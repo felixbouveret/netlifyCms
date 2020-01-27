@@ -1,77 +1,70 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        netlifyCms
-      </h1>
-      <h2 class="subtitle">
-        My best Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div class="cms-container">
+    <hero />
+    <date-list :all-dates="allDates" />
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+// import { mapActions, mapState, mapGetters } from "vuex";
+import DateList from '~/components/timeline/date-list'
+import Hero from '~/components/timeline/hero'
 
 export default {
   components: {
-    Logo
+    DateList,
+    Hero
   },
   head () {
     return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }]
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+      ]
+    }
+  },
+  computed: {
+    allDates () {
+      return this.$store.state.blogPosts
     }
   }
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+<style scoped lang="scss">
+.cms-container-form {
+  background-color: whitesmoke;
+  padding: 32px 0;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.button {
+  padding: 4px 24px;
+  background-color: #00b388;
+  color: white;
+  border-radius: 4px;
+  line-height: 40px;
+  border: none;
+  transition: 0.3s;
+
+  &.loading {
+    background-color: gray;
+    color: black;
+    pointer-events: none;
+  }
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+.loader {
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  border: 4px transparent solid;
+  border-left-color: green;
+  margin: 24px auto;
+  animation: loader 1s infinite linear;
 
-.links {
-  padding-top: 15px;
+  @keyframes loader {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
 </style>
