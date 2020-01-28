@@ -3,7 +3,7 @@
     <div class="inner">
       <div class="line" />
       <div class="date-list-container">
-        <date v-for="date in allDates" :key="date.id" :date-infos="date" />
+        <date v-for="(date, index) in allDates" :key="index" :date-infos="date" />
       </div>
     </div>
   </section>

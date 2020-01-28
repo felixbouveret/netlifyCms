@@ -1,5 +1,5 @@
 <template>
-  <div class="date-container">
+  <div :id="dateInfos.slug" class="date-container">
     <div @click="openPopup = !openPopup" class="date-content">
       <h3 class="title">
         {{ dateInfos.title }}
@@ -27,16 +27,17 @@ export default {
 
   data () {
     return {
-      openPopup: false
+      openPopup: false,
+      date: new Date(this.dateInfos.date)
     }
   },
 
   computed: {
     spliteDate () {
-      if (parseInt(this.dateInfos.date.split('-')[0]) > 3000) {
-        return this.dateInfos.date.split('-')[0] - 2000
+      if (this.date.getFullYear() > 3000) {
+        return this.date.getFullYear() - 2000
       }
-      return this.dateInfos.date
+      return this.date.getDate() + '-' + (this.date.getMonth() + 1) + '-' + this.date.getFullYear()
     }
   }
 }
