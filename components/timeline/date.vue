@@ -4,7 +4,8 @@
       <h3 class="title">
         {{ dateInfos.title }}
       </h3>
-      <span class="date">{{ spliteDate }}</span>
+      <span v-if="dateInfos.smallDate" class="date">{{ smallDate }}-{{ year }}</span>
+      <span v-else class="date">{{ year }}</span>
     </div>
     <date-popup :is-displayed="openPopup" :dateDatas="dateInfos" @change="openPopup = false" />
   </div>
@@ -28,16 +29,8 @@ export default {
   data () {
     return {
       openPopup: false,
-      date: new Date(this.dateInfos.date)
-    }
-  },
-
-  computed: {
-    spliteDate () {
-      if (this.date.getFullYear() > 3000) {
-        return this.date.getFullYear() - 2000
-      }
-      return this.date.getDate() + '-' + (this.date.getMonth() + 1) + '-' + this.date.getFullYear()
+      smallDate: new Date(this.dateInfos.smallDate).getDate() + '-' + new Date(this.dateInfos.smallDate).getMonth(),
+      year: new Date(this.dateInfos.bigDate).getFullYear()
     }
   }
 }
