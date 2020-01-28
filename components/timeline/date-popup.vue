@@ -1,7 +1,7 @@
 <template>
   <div v-if="isDisplayed" class="popup">
     <div class="popup-content">
-      <img :src="image" :alt="title">
+      <img src="img/image1.jpg" :alt="title">
       <div class="popup-desc">
         <h3>{{ title }}</h3>
         <span>{{ date }}</span>
