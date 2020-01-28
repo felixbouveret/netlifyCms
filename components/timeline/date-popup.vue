@@ -27,6 +27,10 @@ export default {
     dateDatas: {
       type: Object,
       default: null
+    },
+    dateFormated: {
+      type: String,
+      default: ''
     }
   },
 
@@ -34,7 +38,7 @@ export default {
     return {
       title: this.dateDatas.title,
       description: this.dateDatas.body,
-      date: new Date(this.dateDatas.date),
+      date: this.dateFormated,
       image: this.dateDatas.thumbnail
     }
   },

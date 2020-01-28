@@ -6,7 +6,7 @@
       </h3>
       <span class="date">{{ spliteDate }}</span>
     </div>
-    <date-popup :is-displayed="openPopup" :dateDatas="dateInfos" @change="openPopup = false" />
+    <date-popup :is-displayed="openPopup" :dateFormated="spliteDate" :dateDatas="dateInfos" @change="openPopup = false" />
   </div>
 </template>
 
