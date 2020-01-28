@@ -1,0 +1,8 @@
+{
+  "title": "Premier email de l'histoire",
+  "smallDate": "",
+  "bigDate": "1970-12-31T23:00:00.000Z",
+  "description": "Ray Tomlinson s'envoya à lui-même le premier email de l'Histoire",
+  "body": "[Ray (Raymond Samuel) Tomlinson](https://fr.wikipedia.org/wiki/Ray_Tomlinson) est un ingénieur américain considéré comme le créateur et un des précurseurs du courrier électronique.\n\nÀ l'automne 1971, Ray, travaillant chez Bolt Beranek and Newman Technologies, s'envoya à lui-même le premier email de l'Histoire.\n\nAfin de définir l'adresse d'envoi, il aura besoin de séparer la partie indiquant l'utilisateur de l'ordinateur sur lequel se trouve la boîte de réception. L'arobase (@), qui n'est utilisé dans aucun nom propre ou commun, devient alors le séparateur, d'autant qu'elle se prononce at (« chez » en anglais).",
+  "thumbnail": "/img/Ray_Tomlinson.png"
+}
