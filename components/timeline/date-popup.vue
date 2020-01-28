@@ -1,7 +1,7 @@
 <template>
   <div v-if="isDisplayed" class="popup">
     <div class="popup-content">
-      <img src="img/image1.jpg" :alt="title">
+      <img :src="image" :alt="title">
       <div class="popup-desc">
         <h3>{{ title }}</h3>
         <span>{{ date }}</span>
@@ -35,7 +35,7 @@ export default {
       title: this.dateDatas.title,
       description: this.dateDatas.body,
       date: new Date(this.dateDatas.date),
-      image: this.dateDatas.image
+      image: this.dateDatas.thumbnail
     }
   },
 
