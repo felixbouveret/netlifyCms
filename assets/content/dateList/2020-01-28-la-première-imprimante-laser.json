@@ -1,0 +1,8 @@
+{
+  "title": "La première imprimante laser",
+  "smallDate": "",
+  "bigDate": "1974-12-31T23:00:00.000Z",
+  "description": "La première imprimante laser commercialisée fut le modèle 3800 produit par IBM",
+  "body": "Le premier prototype a été créé par Xerox, à la suite de la modification d’un photocopieur en 1971. La première imprimante laser commercialisée fut le modèle 3800 produit par IBM en 1976, utilisée pour l’impression à gros volumes de documents tels que des factures et des étiquettes d’expédition. De nombreux modèles 3800 sont encore utilisés.\n\nL’imprimante laser a joué un rôle particulièrement remarquable dans la popularisation de la publication assistée par ordinateur (PAO) avec l’introduction de l’Apple LaserWriter pour Macintosh et du logiciel Aldus Pagemaker, en 1985. Avec ces deux produits, les utilisateurs pouvaient créer des documents qui auparavant auraient requis une composition professionnelle.\n\nElles utilisent un procédé d’impression xérographique (ou électrophotographique). L’image est produite par le balayage direct d’un faisceau laser à travers le tambour interne de l’imprimante. Elles peuvent reproduire des compositions de textes et graphiques, avec des fontes de caractères variées et des images tramées. Plutôt que de l’encre, les imprimantes laser utilisent une poudre noire, le toner.",
+  "thumbnail": "/img/laser_print.png"
+}
