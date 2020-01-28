@@ -1,0 +1,8 @@
+{
+  "title": "Le projet Gutenberg - Ebook",
+  "smallDate": "2020-07-03T22:00:00.000Z",
+  "bigDate": "1970-12-31T23:00:00.000Z",
+  "description": "Le projet Gutenberg est une bibliothèque de versions électroniques libres",
+  "body": "Le **projet Gutenberg est une bibliothèque de versions électroniques libres** de livres physiquement existants. Les textes fournis sont essentiellement du domaine public, soit parce qu'ils n'ont jamais été sujets à des droits d'auteur soit parce que ces derniers sont expirés.\n\nLe premier \"ebook\" de l'histoire, fut la \"Déclaration d’indépendance des États-Unis\".\n\nMichael Hart utilise un ordinateur du Materials Research Lab pour écrire la \"Déclaration d’indépendance des États-Unis\" sur l'ARPANET. Ce fichier de 5 ko était accessible à tous les utilisateurs.\\\nDe nombreux bénévoles l'ont rejoint pour écrire plusieurs autres livres comme\"la Bible\" ou \"Alice au Pays des Merveilles\".",
+  "thumbnail": "/img/projet_gutenberg.png"
+}
