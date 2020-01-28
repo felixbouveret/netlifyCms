@@ -1,0 +1,8 @@
+{
+  "title": "Intel lance le premier microprocesseur",
+  "smallDate": "2020-03-02T23:00:00.000Z",
+  "bigDate": "1970-12-31T23:00:00.000Z",
+  "description": "Le 4004 disponible dans le commerce",
+  "body": "L'Intel 4004 est le premier microprocesseur disponible dans le commerce. Il s'agit de la première intégration réussie de toutes les fonctions d'un processeur dans un seul circuit intégré.\n\nEn 1969, la société japonaise Busicom, premier client important d'Intel (fondé la même année en 1968), s'est rapprochée d'Intel pour discuter du développement des circuits intégrés dont elle avait conçu l'architecture logique.\n\nIl a été conçu par 2 ingénieurs d'Intel : Marcian Hoff et Federico Faggin.",
+  "thumbnail": "/img/intel_4004.png"
+}
