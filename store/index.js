@@ -1,10 +1,14 @@
 export const state = () => ({
-  blogPosts: []
+  blogPosts: [],
+  filteredBlogPosts: null
 })
 
 export const mutations = {
   SET_BLOG_POSTS (state, list) {
     state.blogPosts = list
+  },
+  SET_FILTERED_BLOG_POSTS (state, list) {
+    state.filteredBlogPosts = list
   }
 }
 

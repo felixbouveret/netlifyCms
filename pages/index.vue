@@ -1,6 +1,6 @@
 <template>
   <div class="cms-container">
-    <hero />
+    <hero :all-dates="allDates" />
     <date-list :all-dates="allDates" />
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
   },
   computed: {
     allDates () {
-      return this.$store.state.blogPosts
+      return this.$store.state.filteredBlogPosts ? this.$store.state.filteredBlogPosts : this.$store.state.blogPosts
     }
   }
 }
