@@ -94,21 +94,30 @@ export default {
   },
   methods: {
     ...mapMutations({
-      setFilteredBlogPosts: 'SET_FILTERED_BLOG_POSTS'
+      setFilteredBlogPosts: 'SET_FILTERED_BLOG_POSTS',
+      setIsSearching: 'SET_IS_SEARCHING'
     }),
     filterDates (value) {
       if (!value || value === '') {
         this.filteredDates = null
       } else {
-        const found = this.allDates.filter(element => element.title.toLowerCase().search(value.toLowerCase()) > '-1')
+        const found = this.allDates.filter(
+          element => element.title
+            .replace(/[^\w\s]/gi, '')
+            .toLowerCase()
+            .search(value
+              .replace(/[^\w\s]/gi, '')
+              .toLowerCase()) > '-1')
         this.filteredDates = found
       }
     },
     submitFilter () {
-      if (!this.computedValue) {
+      if (!this.computedValue || this.computedValue === '') {
         this.setFilteredBlogPosts(null)
+        this.setIsSearching(false)
       } else {
         this.setFilteredBlogPosts(this.filteredDates)
+        this.setIsSearching(true)
       }
     }
   }

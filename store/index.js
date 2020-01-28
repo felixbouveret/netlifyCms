@@ -1,6 +1,7 @@
 export const state = () => ({
   blogPosts: [],
-  filteredBlogPosts: null
+  filteredBlogPosts: null,
+  isSearching: false
 })
 
 export const mutations = {
@@ -9,6 +10,9 @@ export const mutations = {
   },
   SET_FILTERED_BLOG_POSTS (state, list) {
     state.filteredBlogPosts = list
+  },
+  SET_IS_SEARCHING (state, data) {
+    state.isSearching = data
   }
 }
 

@@ -2,7 +2,10 @@
   <section class="date-list">
     <div class="inner">
       <div class="line" />
-      <div class="date-list-container">
+      <div v-if="isSearching" class="date-list-container">
+        <date v-for="(date, index) in allFilteredDates" :key="index" :date-infos="date" />
+      </div>
+      <div v-else class="date-list-container">
         <date v-for="(date, index) in allDates" :key="index" :date-infos="date" />
       </div>
     </div>
@@ -17,10 +20,15 @@ export default {
     Date
   },
 
-  props: {
-    allDates: {
-      type: Array,
-      default: null
+  computed: {
+    allDates () {
+      return this.$store.state.blogPosts
+    },
+    allFilteredDates () {
+      return this.$store.state.filteredBlogPosts
+    },
+    isSearching () {
+      return this.$store.state.isSearching
     }
   }
 }

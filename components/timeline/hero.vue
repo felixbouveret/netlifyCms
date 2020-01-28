@@ -4,7 +4,7 @@
       <div class="hero-desc">
         <div class="hero-desc-container">
           <h2>Explore the web history</h2>
-          <search-bar id="search-bar" label="Find your date" />
+          <search-bar id="search-bar" v-model.trim="test" label="Find your date" />
         </div>
       </div>
       <img src="~assets/images/timeline/hero.png" alt="">
@@ -18,6 +18,11 @@ import SearchBar from '~/components/timeline/search-bar'
 export default {
   components: {
     SearchBar
+  },
+  data () {
+    return {
+      test: null
+    }
   }
 }
 </script>

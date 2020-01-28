@@ -30,12 +30,18 @@ export default {
     }
   },
 
-  data () {
-    return {
-      title: this.dateDatas.title,
-      description: this.dateDatas.body,
-      date: new Date(this.dateDatas.date),
-      image: this.dateDatas.thumbnail
+  computed: {
+    title () {
+      return this.dateDatas.title
+    },
+    description () {
+      return this.dateDatas.body
+    },
+    date () {
+      return new Date(this.dateDatas.date)
+    },
+    image () {
+      return this.dateDatas.thumbnail
     }
   },
 

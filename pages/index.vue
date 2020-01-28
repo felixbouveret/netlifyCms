@@ -1,6 +1,6 @@
 <template>
   <div class="cms-container">
-    <hero :all-dates="allDates" />
+    <hero />
     <date-list :all-dates="allDates" />
   </div>
 </template>

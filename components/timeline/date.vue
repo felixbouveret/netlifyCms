@@ -7,7 +7,7 @@
       <span v-if="dateInfos.smallDate" class="date">{{ smallDate }}-{{ year }}</span>
       <span v-else class="date">{{ year }}</span>
     </div>
-    <date-popup :is-displayed="openPopup" :dateDatas="dateInfos" @change="openPopup = false" />
+    <date-popup :is-displayed="openPopup" :dateDatas="popupDatas" @change="openPopup = false" />
   </div>
 </template>
 
@@ -28,9 +28,18 @@ export default {
 
   data () {
     return {
-      openPopup: false,
-      smallDate: new Date(this.dateInfos.smallDate).getDate() + '-' + new Date(this.dateInfos.smallDate).getMonth(),
-      year: new Date(this.dateInfos.bigDate).getFullYear()
+      openPopup: false
+    }
+  },
+  computed: {
+    smallDate () {
+      return new Date(this.dateInfos.smallDate).getDate() + '-' + new Date(this.dateInfos.smallDate).getMonth()
+    },
+    year () {
+      return new Date(this.dateInfos.bigDate).getFullYear()
+    },
+    popupDatas () {
+      return this.dateInfos
     }
   }
 }
