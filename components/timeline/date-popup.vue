@@ -27,6 +27,10 @@ export default {
     dateDatas: {
       type: Object,
       default: null
+    },
+    dateFormated: {
+      type: String,
+      default: ''
     }
   },
 

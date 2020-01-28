@@ -12,7 +12,7 @@
         <span v-else class="date">{{ year }}</span>
       </div>
     </div>
-    <date-popup :is-displayed="openPopup" :dateDatas="popupDatas" @change="openPopup = false" />
+    <date-popup :is-displayed="openPopup" :dateFormated="spliteDate" :dateDatas="dateInfos" @change="openPopup = false" />
   </div>
 </template>
 
