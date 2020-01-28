@@ -1,0 +1,8 @@
+{
+  "title": "Livre \"Packet Communication\" - Robert Metcalfe",
+  "smallDate": "2020-11-30T23:00:00.000Z",
+  "bigDate": "1972-12-31T23:00:00.000Z",
+  "description": "La théorie de la communication par paquets",
+  "body": "Robert Metcalfe est un ingénieur américain, notamment l'inventeur d'Ethernet et fondateur de la société 3Com.\n\nCe rapport \"Packet Communication, MIT Project MAC Technical Report MAC TR-114\" développe une théorie de la communication par paquets. Il analyse les utilisations des ordinateurs dans le système de communication numérique et examine les structures d’organisation des ordinateurs dans les environnements communicatifs.\n\nDivers exemples de réseaux informatiques existants, comme le réseau informatique ARPA et le système ALOHA, sont utilisés pour motiver et justifier l’analyse de la communication en mode paquet, une communication par paquets en diffusion et une distribution de communication entre processus.",
+  "thumbnail": "/img/metcalfe.png"
+}
