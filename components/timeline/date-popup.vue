@@ -5,7 +5,7 @@
       <div class="popup-desc">
         <h3>{{ title }}</h3>
         <span>{{ date }}</span>
-        <div v-html="description" class="popup-text" />
+        <div v-html="$md.render(description)" class="popup-text" />
       </div>
     </div>
     <div @click="mayCloseMe" class="popup-background" />
