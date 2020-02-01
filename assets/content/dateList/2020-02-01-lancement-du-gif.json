@@ -1,0 +1,8 @@
+{
+  "title": "Lancement du GIF ",
+  "smallDate": "",
+  "bigDate": "1986-12-31T23:00:00.000Z",
+  "description": "Le premier GIF fut un nuage qui bouge derriere un avion",
+  "body": "En 1986, un informaticien de Compuserve nommé Steve Wilhite s'est vu confier par son chef, une mission. Il doit résoudre deux problèmes:\n\n1. Inventer un format graphique qui fonctionne sur tous les ordinateurs.  \n\n2. inventer un format graphique de bonne résolution, même avec un débit de connexion très faible.\n\nWilhite a terminé en mai 1987 les spécifications d’un format qu’il appelle GIF pour Graphic Interchange Format, et qui est d’abord statique. C’est avec le web, au début des années 90, que le GIF va devenir ce qu’il est. Ainsi, en 1995, des ingénieurs de Netscape créent le GIF animé - celui que nous connaissons aujourd’hui.",
+  "thumbnail": "/img/GIF.gif"
+}
