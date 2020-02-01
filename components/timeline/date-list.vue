@@ -1,12 +1,15 @@
 <template>
   <section class="date-list">
     <div class="inner">
-      <div class="line" />
       <div v-if="isSearching" class="date-list-container">
-        <date v-for="(date, index) in allFilteredDates" :key="index" :date-infos="date" />
+        <transition-group name="date-in-out" tag="div">
+          <date v-for="date in allFilteredDates" :key="date.slug" :date-infos="date" class="date" />
+        </transition-group>
       </div>
       <div v-else class="date-list-container">
-        <date v-for="(date, index) in allDates" :key="index" :date-infos="date" />
+        <transition-group name="date-in-out" tag="div">
+          <date v-for="date in allDates" :key="date.slug" :date-infos="date" class="date" />
+        </transition-group>
       </div>
     </div>
   </section>
@@ -34,68 +37,43 @@ export default {
 }
 </script>
 
-<style lang="scss">
-  .date-list-container {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-  }
-
-  .date-container {
-    margin-top: 64px;
-    padding-right: 40px;
-    justify-content: flex-end;
-
-    &::after {
-      content: '';
-      position: absolute;
-      width: 16px;
-      height: 16px;
-      background-color: #0A3F5A;
-      border-radius: 8px;
-      transform: translate(50%, -50%);
-      right: 0;
-      top: 50%;
-    }
-    &:first-child {
-      margin-top: 0;
-
-      &::before {
-        content: "";
-        position: absolute;
-        height: 50%;
-        background-color: #FFF;
-        width: 10px;
-        right: -5px;
-      }
-    }
-    &:nth-child(2n){
-      justify-content: flex-start;
-      align-self: flex-end;
-      padding-right: 0;
-      padding-left: 40px;
-
-      &::after{
-        transform: translate(-50%, -50%);
-        left: 0;
-        top: 50%;
-      }
-    }
-  }
-</style>
-
 <style lang="scss" scoped>
+.date-list {
+  padding: 32px 0;
+  background-image: url("~assets/images/timeline/background.png");
+  background-size: cover;
+}
 .inner {
-  position: relative;
-  padding: 64px 0;
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
 
-  .line {
-    position: absolute;
-    width: 3px;
-    height: 100%;
-    transform: translateX(-50%);
-    left: 50%;
-    background-color: black;
+  .date-list-container > div {
+    @media (min-width: 720px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 32px;
+    }
+    @media (min-width: 960px) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 32px;
+    }
+    .date {
+      margin: 0 auto 24px;
+      max-width: 350px;
+      @media (min-width: 720px) {
+        margin: 0;
+        max-width: none;
+      }
+    }
   }
+}
+
+.date-in-out-enter-active, .date-in-out-leave-active {
+  transition: all .3s;
+}
+.date-in-out-enter, .date-in-out-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="cms-container">
     <hero />
-    <date-list :all-dates="allDates" />
+    <date-list />
   </div>
 </template>
 
