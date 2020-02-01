@@ -6,10 +6,14 @@ export const state = () => ({
 
 export const mutations = {
   SET_BLOG_POSTS (state, list) {
-    state.blogPosts = list
+    state.blogPosts = list.sort((a, b) => new Date(a.bigDate).getFullYear() - new Date(b.bigDate).getFullYear())
   },
   SET_FILTERED_BLOG_POSTS (state, list) {
-    state.filteredBlogPosts = list
+    if (list) {
+      state.filteredBlogPosts = list.sort((a, b) => new Date(a.bigDate).getFullYear() - new Date(b.bigDate).getFullYear())
+    } else {
+      state.filteredBlogPosts = list
+    }
   },
   SET_IS_SEARCHING (state, data) {
     state.isSearching = data
