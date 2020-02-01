@@ -1,0 +1,8 @@
+{
+  "title": "Premier TCP/IP",
+  "smallDate": "",
+  "bigDate": "1977-12-31T23:00:00.000Z",
+  "description": "Transmission Control Protocol",
+  "body": "**Transmission Control Protocol** (littéralement, « protocole de contrôle de transmissions »), [abrégé](https://fr.wikipedia.org/wiki/Abr%C3%A9viation) **TCP**, est un protocole de transport fiable, en [mode connecté](https://fr.wikipedia.org/wiki/Mode_connect%C3%A9), documenté dans la RFC 793[1](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol#cite_note-RFC-793-t-d-1) de l’[IETF](https://fr.wikipedia.org/wiki/Internet_Engineering_Task_Force).\n\nDans le [modèle Internet](https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet), aussi appelé modèle TCP/IP, TCP est situé au-dessus de IP. Dans le modèle [OSI](https://fr.wikipedia.org/wiki/Mod%C3%A8le_OSI), il correspond à la [couche transport](https://fr.wikipedia.org/wiki/Couche_transport), intermédiaire de la [couche réseau](https://fr.wikipedia.org/wiki/Couche_r%C3%A9seau) et de la [couche session](https://fr.wikipedia.org/wiki/Couche_session). Les applications transmettent des flux de données sur une connexion réseau. TCP découpe le flux d’[octets](https://fr.wikipedia.org/wiki/Octet) en segments dont la taille dépend de la [MTU](https://fr.wikipedia.org/wiki/Maximum_Transmission_Unit) du réseau sous-jacent ([couche liaison de données](https://fr.wikipedia.org/wiki/Couche_liaison_de_donn%C3%A9es)).\n\nTCP a été développé en 1973 puis adopté pour [Arpanet](https://fr.wikipedia.org/wiki/Arpanet) en 1983, remplaçant [NCP](https://fr.wikipedia.org/wiki/Network_Control_Program_(Arpanet)) (RFC 801[2](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol#cite_note-RFC-801-a-t-d-2)).",
+  "thumbnail": "/img/tcp:IP.png"
+}
