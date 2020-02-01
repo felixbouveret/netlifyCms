@@ -1,0 +1,8 @@
+{
+  "title": "Annonce de Linus Torvalds",
+  "smallDate": "2020-08-24T22:00:00.000Z",
+  "bigDate": "1990-12-31T23:00:00.000Z",
+  "description": "Naissance de Linux, un système open-source",
+  "body": "L’audace d’un jeune étudiant finlandais va donner naissance au noyau Linux qui est aujourd’hui au centre des systèmes open-source et qui a fortement contribué à la popularisation des mouvements du logiciel libre et de l’open source.\n\n\\\nTout a commencé le 25 août 1991 par une annonce de Linus Torvalds. Sans trop exagérer, le message de Linus aux membres du groupe comp.os.minix peut représenter pour les partisans de l’open source ce qu’ont représenté pour la communauté noire aux USA le célèbre « I have a dream » de Martin Luther King ou le fameux « Yes, We Can » de Barack Obama.\n\nLes adeptes de Linux pourraient peut-être confirmer ce point.\\\nEn effet, tout comme ces deux discours historiques ont impacté le destin d’une communauté aux Etats-Unis, l’annonce de Torvalds a également changé beaucoup de choses dans le domaine de l’informatique, alors que les logiciels propriétaires dictaient les règles du marché.\n\nAujourd’hui, Linux est si répandu que les systèmes basés sur le noyau sont majoritaires pour les super-ordinateurs et largement utilisés comme systèmes embarqués dans les appareils électroniques. N’oublions pas non plus les smartphones qui exécutent Android - système d’exploitation mobile open source basé sur le noyau Linux – ainsi que le marché des serveurs web dont une bonne part est détenue par les serveurs de type UNIX et Linux en particulier. Dans les secteurs où la sécurité est primordiale, Linux l’emporte en général sur les systèmes propriétaires.",
+  "thumbnail": "/img/linus_torvald.jpg"
+}
