@@ -1,0 +1,8 @@
+{
+  "title": "Première Carte Graphique couleur ",
+  "smallDate": "",
+  "bigDate": "1980-12-31T23:00:00.000Z",
+  "description": "Les premières cartes graphiques ne permettaient, au début de l'​ère informatique, qu'un affichage en 2D.",
+  "body": "Les premières cartes graphiques pouvant adresser un point individuel de l'affichage n'apparaissent qu'en 1981 pour le grand public, avec les cartes CGA, (Color Graphic Adapter), qui permettaient un adressage de points dans une résolution de 320 colonnes sur 200 lignes en 4 couleurs différentes.\n\nLes premières cartes graphiques ne permettaient, au début de l'ère informatique, qu'un affichage en 2D.\n\nCe sont les cartes Monochrome Display Adapter (MDA) appelées aussi \"Hercules\". Bien que dénommées « cartes graphiques », elles n'affichaient, en monochrome, que de simples caractères codés sur 8 bits, dont une partie était réservée au graphisme ; c'est l'adressage direct en mode ASCII (mode encore utilisé au démarrage par le BIOS de la plupart des ordinateurs en 2009).",
+  "thumbnail": "/img/première-cartegraphique.jpg"
+}
