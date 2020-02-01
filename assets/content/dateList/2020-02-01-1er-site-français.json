@@ -1,0 +1,8 @@
+{
+  "title": "1er site français",
+  "smallDate": "",
+  "bigDate": "1991-12-31T23:00:00.000Z",
+  "description": "info.cern.ch fut le premier site web mis en ligne, fonctionnant sur un ordinateur NeXT au CERN. Ce site est toujours accessible par internet. Le premier site web français est créé en 1992 au CNRS.",
+  "body": "info.cern.ch fut le premier **site** web mis en ligne, fonctionnant sur un ordinateur NeXT au CERN. Ce **site** est toujours accessible par internet. Le premier **site** web **français** est créé en **1992** au CNRS.\n\n\\\nC’est en 1992 que Wojciech Wojcik, ingénieur au Centre de calcul de l’Institut national de physique nucléaire et de physique des particules (CC-IN2P3), à Lyon, et Daniel Charnay, ingénieur au CNRS ont installé \"info.in2p3.fr\", le premier site français.\n\nEn septembre 1992, Wojciech Wojcik a assisté à une démonstration du web par Tim Berners-Lee et Robert Caillau. « Il invite Robert au CC-IN2P3, et on installe un serveur web. Avec 10 lignes de HTML, une photo du Centre de calcul et quelques liens hypertextes, la première page web française voit le jour ». Elle était installée sur un ordinateur Next Cube.\n\n« Cette première page ressemblait à une carte de visite du CC-IN2P3 et les quelques liens hypertextes mettaient si peu en évidence la technologie du Web qu’elle trahissait sans doute notre difficulté à anticiper la puissance de cette invention », reconnaît Daniel Charnay.",
+  "thumbnail": "/img/site_francais.jpg"
+}
