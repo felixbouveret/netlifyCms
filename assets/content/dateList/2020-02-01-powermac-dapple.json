@@ -1,8 +1,8 @@
 {
   "title": "PowerMac d'APPLE",
-  "smallDate": "",
+  "smallDate": "2020-02-29T23:00:00.000Z",
   "bigDate": "1993-12-31T23:00:00.000Z",
   "description": "Il était présenté comme le successeur commun du PC et du MAC.",
-  "body": "Basé sur le microprocesseur POWER-PC réalisé par Motorola en collaboration avec IBM, il était présenté comme le successeur commun du PC et du MAC. Cependant, malgré de très bonnes performances, il tarde à s'imposer.",
+  "body": "Basé sur le microprocesseur POWER-PC réalisé par Motorola en collaboration avec IBM, il était présenté comme le successeur commun du PC et du MAC. Cependant, malgré de très bonnes performances, il tarde à s'imposer.\n\nLes premiers Power Macintosh apparurent en mars 1994 (Power Macintosh 6100, 7100 et 8100). Ils utilisaient sous Mac OS Classic un émulateur de processeur Motorola 680x0 pour faire tourner les applications d'alors, conçues pour l'architecture m68k.\n\nJusqu'en 1997, les Power Macintosh embarquaient des processeurs PowerPC 601, 603 ou 604. Ils furent ensuite basés sur des PowerPC G3, puis G4 et enfin G5.\n\nLes Power Mac G4 introduisaient une particularité, tenant en une troisième unité de calcul vectoriel, en plus du CPU et du FPU. Il s'agissait de l'AltiVec, ou Velocity Engine, qui au lieu de traiter les données sur un seul entier de 32 bits, les traitaient sur un vecteur de 128, permettant de gros gains de puissance sur les calculs vectoriels (traitement d'image et de vidéo). La carte mère était adaptée en conséquence.",
   "thumbnail": "/img/powermac.jpg"
 }
