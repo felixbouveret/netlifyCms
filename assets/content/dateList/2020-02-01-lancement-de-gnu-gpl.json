@@ -1,0 +1,8 @@
+{
+  "title": "Lancement de GNU GPL",
+  "smallDate": "2020-02-24T23:00:00.000Z",
+  "bigDate": "1988-12-31T23:00:00.000Z",
+  "description": "GNU est un système d’exploitation libre",
+  "body": "GNU est un système d’exploitation libre créé en 1983 par Richard Stallman et maintenu par le projet GNU. Il reprend les concepts et le fonctionnement d'UNIX. Le logiciel qui constitue GNU est généralement utilisé avec des logiciels libres provenant d’autres projets tels que le noyau Linux.",
+  "thumbnail": "/img/GNU.png"
+}
