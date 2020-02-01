@@ -1,0 +1,8 @@
+{
+  "title": "Navigateur WWW disponible via FTP",
+  "smallDate": "",
+  "bigDate": "1991-12-31T23:00:00.000Z",
+  "description": "Dans la barre d'adresse, au lieu d'une adresse http://, tapez ftp:// suivi de l'adresse du serveur FTP que vous souhaitez utiliser",
+  "body": "Le navigateur WWW était disponible au téléchargement via FTP par le CERN. Ce fut le grand départ pour le World Wide Web.\n\nDans la barre d'adresse, au lieu d'une adresse http://, tapez ftp:// suivi de l'adresse du serveur FTP que vous souhaitez utiliser.\n\nSi le serveur accepte d'être contacté depuis un navigateur Web, vous voyez alors apparaître une fenêtre de dialogue. Entrez alors votre nom et mot de passe. Cliquez ensuite sur Ouvrir une session.\n\nVous verrez alors apparaître les dossiers du disque dur éloigné. Réduisez la fenêtre du navigateur Web. Vous pouvez alors échanger des fichiers entre votre disque dur local et le disque dur éloigné en les glissant d'une fenêtre à l'autre.",
+  "thumbnail": "/img/ftp.jpg"
+}
