@@ -1,0 +1,8 @@
+{
+  "title": "Langage PHP",
+  "smallDate": "",
+  "bigDate": "1993-12-31T23:00:00.000Z",
+  "description": "Le langage PHP a été créé en 1994 par Rasmus Lerdorf.",
+  "body": "Le langage PHP a été créé en 1994 par Rasmus Lerdorf. C'était à l'origine une bibliothèque logicielle en C dont il se servait pour conserver une trace des visiteurs qui venaient consulter son CV.\n\nPHP: Hypertext Preprocessor, plus connu sous son sigle **PHP** ([sigle auto-référentiel](https://fr.wikipedia.org/wiki/Sigles_auto-r%C3%A9f%C3%A9rentiels)), est un [langage de programmation](https://fr.wikipedia.org/wiki/Langage_de_programmation) [libre](https://fr.wikipedia.org/wiki/Logiciel_libre)[8](https://fr.wikipedia.org/wiki/PHP#cite_note-fsfphplicense-8), principalement utilisé pour produire des [pages Web dynamiques](https://fr.wikipedia.org/wiki/Page_Web_dynamique) via un [serveur HTTP](https://fr.wikipedia.org/wiki/Serveur_HTTP)[7](https://fr.wikipedia.org/wiki/PHP#cite_note-manpreface-7), mais pouvant également fonctionner comme n'importe quel [langage interprété](https://fr.wikipedia.org/wiki/Langage_interpr%C3%A9t%C3%A9_(informatique)) de façon locale. PHP est un [langage impératif](https://fr.wikipedia.org/wiki/Programmation_imp%C3%A9rative) [orienté objet](https://fr.wikipedia.org/wiki/Orient%C3%A9_objet).\n\nPHP a permis de créer un grand nombre de sites web célèbres, comme [Facebook](https://fr.wikipedia.org/wiki/Facebook), [Wikipédia](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia), etc.[](https://fr.wikipedia.org/wiki/PHP#cite_note-9) Il est considéré comme une des bases de la création de sites web dits [dynamiques](https://fr.wikipedia.org/wiki/Page_web_dynamique) mais également des applications web.",
+  "thumbnail": "/img/createur-php-langage.jpg"
+}
