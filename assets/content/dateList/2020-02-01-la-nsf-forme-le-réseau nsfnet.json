@@ -1,0 +1,8 @@
+{
+  "title": "La NSF forme le réseau NSFNET",
+  "smallDate": "",
+  "bigDate": "1984-12-31T23:00:00.000Z",
+  "description": "La NSF (National Science foundation) forme le réseau NSFNET",
+  "body": "La **NSF** (National Science foundation) forme le réseau **NSFNET** reliant 5 sites équipés de super ordinateurs avec des liaisons à 56 kbits/s : L'université de Princeton, Pittsburgh, l'université de Californie à San Diego, l'université de l'Illinois à Urbana-Champaign et l'université de Cornell.\n\nCe \"**backbone**\" va également permettre de relier tous les réseaux régionaux utilisant le protocole **TCP/IP**, faisant ainsi disparaitre les frontières entre ces réseaux et former un vrai réseau global interconnectant toutes les universités américaines et aussi quelques réseaux Européens et Canadiens.",
+  "thumbnail": "/img/NSFNET.png"
+}
