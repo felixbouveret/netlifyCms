@@ -1,0 +1,8 @@
+{
+  "title": "Apple 1",
+  "smallDate": "2020-04-10T22:00:00.000Z",
+  "bigDate": "1975-12-31T23:00:00.000Z",
+  "description": "Conçu par Steve Wozniak, Steve Jobs et Ronald Wayne et testé en série dans le garage des Jobs, il fut le premier produit d'Apple mis en vente en avril 1976",
+  "body": "Conçu par Steve Wozniak, Steve Jobs et Ronald Wayne et testé en série dans le garage des Jobs, il fut le premier produit d'Apple mis en vente en avril 1976. Son prix était alors de 666,66 dollars, ce qui correspondrait aujourd'hui à environ 2 700 $ (2 070 euros) en prenant en compte l'inflation.\n\nEnviron 200 unités furent produites. Une cinquantaine d'entre elles ont été vendues par un magasin d'électronique de Mountain View. À la différence d'autres ordinateurs amateurs de cette époque, qui étaient vendus en kit, l'Apple I était constitué uniquement d'une carte assemblée comprenant des composants électroniques dont environ 21 circuits intégrés. Cependant, pour en faire un ordinateur fonctionnel, les utilisateurs devaient encore l'intégrer dans un boîtier avec une alimentation, un clavier, et un écran de télévision. Une carte facultative, fournissant une interface pour un lecteur de cassette, fut proposée plus tard pour un prix de 75 dollars.",
+  "thumbnail": "/img/Apple1.jpg"
+}
