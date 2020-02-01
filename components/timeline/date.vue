@@ -6,6 +6,7 @@
       </h3>
       <span v-if="dateInfos.smallDate" class="date">{{ smallDate }}-{{ year }}</span>
       <span v-else class="date">{{ year }}</span>
+      <p>{{ dateInfos.description }}</p>
     </div>
     <date-popup :is-displayed="openPopup" :dateDatas="popupDatas" @change="openPopup = false" />
   </div>
