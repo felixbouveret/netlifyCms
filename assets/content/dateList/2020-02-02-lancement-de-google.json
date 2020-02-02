@@ -1,0 +1,8 @@
+{
+  "title": "Lancement de Google",
+  "smallDate": "2020-09-03T22:00:00.000Z",
+  "bigDate": "1997-12-31T23:00:00.000Z",
+  "description": "Google est fondé dans un garage californien",
+  "body": "Google est fondé dans un garage californien\n\nDeux étudiants de Stanford, Larry Page et Sergey Brin, se lancent dans un projet de moteur de recherche qui rencontrera ce qu’il n’est pas exagéré de qualifier de joli petit succès. Ironiquement, Google, aujourd’hui critiqué pour ses intrusions dans la vie privée de ses utilisateurs, s’est, à ses débuts, moins fait remarquer pour la précision de ses recherches que pour la sobriété de sa page d’accueil, dépourvue de fioritures… et de publicités.\n\nAlors que les internautes ne jurent que par le duo Yahoo / Altavista, deux jeunes ingénieurs de Stanford créent un moteur de recherche révolutionnaire. Contrairement à Altavista, qui classe (mal) les pages Web en fonction des occurences du mot recherché sur la page, Google fonctionne avec un système de réputation de pages et classe ses réponses notamment en fonction du nombre et de la qualité des liens qui pointent vers elle.\n\nLe succès du site, volontairement dépouillé, est immédiat car les résultats de recherche sont tout simplement cent fois plus pertinents que chez la concurrence, rapidement ringardisée.",
+  "thumbnail": "/img/google.png"
+}
