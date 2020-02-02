@@ -1,0 +1,8 @@
+{
+  "title": "Protocole WAP",
+  "smallDate": "",
+  "bigDate": "1998-12-31T23:00:00.000Z",
+  "description": "Wireless Application Protocol) est un protocole de communication apparu en France en 1992 qui permettait d'accéder à Internet à partir d'un appareil de transmission sans fil, comme un téléphone mobile ou un assistant personnel",
+  "body": "Le protocole WAP (en anglais : Wireless Application Protocol) est un protocole de communication apparu en France en 1992 qui permettait d'accéder à Internet à partir d'un appareil de transmission sans fil, comme un téléphone mobile ou un assistant personnel.\n\nIl redéfinit le protocole HTTP, le format de présentation HTML et l'interactivité obtenue par le langage JavaScript pour les adapter au monde des périphériques ayant un écran de taille réduite, un processeur de faible puissance et une autonomie limitée (téléphones mobiles). Le protocole est maintenu par la Open Mobile Alliance (anciennement Wap Forum).",
+  "thumbnail": "/img/protocole_wap.gif"
+}
