@@ -4,5 +4,5 @@
   "bigDate": "1999-12-31T23:00:00.000Z",
   "description": "C'est un langage inspiré par Java et développé par Microsoft",
   "body": "C'est un langage inspiré par Java et développé par Microsoft\n\n**C#** est un langage de programmation orientée objet, commercialisé par Microsoft depuis 2002 et destiné à développer sur la plateforme Microsoft .NET.\n\nIl est dérivé du C++ et très proche du Java dont il reprend la syntaxe générale ainsi que les concepts, y ajoutant des notions telles que la surcharge des opérateurs, les indexeurs et les délégués. Il est utilisé notamment pour développer des applications web sur la plateforme ASP.NET.",
-  "thumbnail": "/img/C#.png"
+  "thumbnail": "/img/C.png"
 }
