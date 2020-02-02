@@ -1,0 +1,8 @@
+{
+  "title": "Lancement d’Internet Archive",
+  "smallDate": "2020-09-30T22:00:00.000Z",
+  "bigDate": "1994-12-31T23:00:00.000Z",
+  "description": "Internet Archive (ou IA) est un organisme à but non lucratif consacré à l’archivage du Web",
+  "body": "L’Américain Brewster Kahle lance la bien nommée Fondation Internet Archive, avec un projet à l’objectif aussi clair qu’ambitieux : archiver le Web. Aujourd’hui, il est possible de retourner dans le passé du Web, grâce à la précieuse Wayback Machine, sa machine à remonter dans le temps.\n\n**Internet Archive** (ou **IA**) est un organisme à but non lucratif consacré à l’archivage du Web qui agit aussi comme bibliothèque numérique. Ces archives électroniques sont constituées de clichés instantanés (copie de pages prises à différents moments) de pages web, de logiciels, de films, de livres et d’enregistrements audio.\n\nPour assurer la stabilité et la sécurité des données archivées, un site miroir fonctionnel est conservé à la Bibliotheca Alexandrina en Égypte. L’IA met gratuitement ses collections à la disposition des chercheurs, historiens et universitaires. Située dans le Presidio de San Francisco, elle est membre de l'American Library Association et est officiellement reconnue comme bibliothèque par l'État de Californie.\n\nLe robot d'indexation utilisé par IA est Heritrix, un logiciel libre. Le logiciel de numérisation de livres, libre également, est Scribe.",
+  "thumbnail": "/img/ia.png"
+}
