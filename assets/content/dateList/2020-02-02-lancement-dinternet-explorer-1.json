@@ -1,0 +1,8 @@
+{
+  "title": "Lancement d'Internet Explorer 1",
+  "smallDate": "2020-08-15T22:00:00.000Z",
+  "bigDate": "1994-12-31T23:00:00.000Z",
+  "description": "Création du navigateur Internet Explorer",
+  "body": "Microsoft lance son propre navigateur. Livré par défaut avec Windows, il deviendra vite le navigateur le plus utilisé au monde avant d’être supplanté par Firefox et Chrome. Il a depuis été remplacé, sur Windows, par Edge.\n\nMicrosoft lance son propre navigateur pour faire concurrence à Netscape, qui fait un carton. Mais le géant du logiciel, qui vient de commercialiser Windows 95, reste assez timoré : Internet Explorer 1 n'est proposé qu'en option avec une galerie de logiciels supplémentaires pour son nouveau système d'exploitation. Le succès incroyable de Windows fera de facto le succès de son navigateur, qui finira par devenir omnipotent... Jusqu'au lancement de Firefox, puis de Chrome.",
+  "thumbnail": "/img/internet_explorer.png"
+}
