@@ -1,0 +1,8 @@
+{
+  "title": "Partage du code du langage PHP",
+  "smallDate": "",
+  "bigDate": "1994-12-31T23:00:00.000Z",
+  "description": "Rasmus décide, en 1995, de publier son code du langage PHP, pour que tout le monde puisse l'utiliser et en profiter.",
+  "body": "Rasmus décide, en 1995, de publier son code du langage PHP, pour que tout le monde puisse l'utiliser et en profiter.\n\nEn Juin 1995, Rasmus » fournit le code source de PHP Tools au grand public, permettant ainsi aux développeurs de l'utiliser comme bon leur semblait. Ceci a également permis - et encouragé - aux utilisateurs de fournir des patches pour corriger les bogues, mais aussi pour éprouver la stabilité du produit.",
+  "thumbnail": "/img/php.jpg"
+}
