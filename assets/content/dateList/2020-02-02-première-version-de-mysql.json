@@ -1,0 +1,8 @@
+{
+  "title": "Première version de MySQL",
+  "smallDate": "2020-05-24T22:00:00.000Z",
+  "bigDate": "1994-12-31T23:00:00.000Z",
+  "description": "MySQL AB (fondée en 1995, acquise par Sun Microsystems en 2008) est une entreprise créatrice et propriétaire de MySQL",
+  "body": "MySQL AB (fondée en 1995, acquise par Sun Microsystems en 2008) est une entreprise créatrice et propriétaire de MySQL, un système de gestion de base de données relationnelle, ainsi que des produits tels que MySQL Cluster. La société a un double siège. L'un à Uppsala, en Suède et l'autre à Cupertino en Californie (aux États-Unis) avec des bureaux dans d'autres grandes villes du monde (Paris, Munich, Dublin, Milan et Tokyo).",
+  "thumbnail": "/img/mysql.png"
+}
