@@ -1,0 +1,8 @@
+{
+  "title": "Lancement de Wordpress",
+  "smallDate": "2020-05-26T22:00:00.000Z",
+  "bigDate": "2002-12-31T23:00:00.000Z",
+  "description": "WordPress est un système de gestion de contenu gratuit, libre et open-source",
+  "body": "WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par l'entreprise américaine Automattic.\n\nCe logiciel open source est rapidement devenu le plus populaire des CMS (content management system), ces outils permettant de créer et gérer des sites en ligne. Personnalisable à l’infini, il a notamment été plébiscité par les blogueurs qui se sentaient à l’étroit dans les plates-formes de blogs trop uniformes.",
+  "thumbnail": "/img/wordpress.jpg"
+}
