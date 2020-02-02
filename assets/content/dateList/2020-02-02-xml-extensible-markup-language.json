@@ -1,0 +1,8 @@
+{
+  "title": "XML (eXtensible Markup Language)",
+  "smallDate": "",
+  "bigDate": "1995-12-31T23:00:00.000Z",
+  "description": "C'est une norme destinée à l'échange (par ext. la composition et la publication) de documents informatisés.",
+  "body": "XML est un sous-ensemble simplifié du SGML. C'est une norme destinée à l'échange (par ext. la composition et la publication) de documents informatisés.\n\nL'**Extensible Markup Language**, généralement appelé **XML**, « langage de balisage extensible » en français, est un métalangage informatique de balisage générique qui est un sous-ensemble du Standard Generalized Markup Language (SGML). Sa syntaxe est dite « extensible » car elle permet de définir différents langages avec chacun leur vocabulaire et leur grammaire, comme XHTML, XSLT, RSS, SVG… Elle est reconnaissable par son usage des chevrons (`<`, `>`) encadrant les noms des balises. L'objectif initial de XML est de faciliter l'échange automatisé de contenus complexes (arbres, texte enrichi, etc.) entre systèmes d'informations hétérogènes (interopérabilité). Avec ses outils et langages associés, une application XML respecte généralement certains principes :\n\n* la structure d'un document XML est définie et validable par un schéma ;\n* un document XML est entièrement transformable dans un autre document XML.",
+  "thumbnail": "/img/xml.png"
+}
