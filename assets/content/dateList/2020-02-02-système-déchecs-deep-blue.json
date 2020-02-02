@@ -1,0 +1,8 @@
+{
+  "title": "Système d'échecs \"Deep Blue\"",
+  "smallDate": "2020-05-10T22:00:00.000Z",
+  "bigDate": "1996-12-31T23:00:00.000Z",
+  "description": "Deep Blue est un superordinateur spécialisé dans le jeu d'échecs par adjonction de circuits spécifiques, développé par IBM au début des années 1990",
+  "body": "**Deep Blue** est un superordinateur spécialisé dans le jeu d'échecs par adjonction de circuits spécifiques, développé par IBM au début des années 1990.\n\nPerdant un match en 1996 (2-4) contre le champion du monde d'échecs de l'époque Garry Kasparov, Deep Blue (surnommé alors Deeper Blue) bat le champion du monde (3,5–2,5) lors du match revanche en 1997, mais hors des conditions exigées lors des championnats du monde.\n\nDeep Blue est l'aboutissement du projet ChipTest, lancé par les étudiants Feng-hsiung Hsu, Murray Campbell et Thomas Anantharaman au laboratoire de l'Université Carnegie-Mellon en 1985. Renommé Deep Thought en 1988, le projet est devenu **Deep Blue** en 1993.\n\n« Deep Thought » (Pensée profonde) était une référence au livre Le Guide du voyageur galactique de Douglas Adams ; l'entreprise IBM étant familièrement appelée « Big Blue », le nom de l'ordinateur a ensuite évolué en « Deep Blue » (Bleu profond).",
+  "thumbnail": "/img/deep_blue.jpeg"
+}
