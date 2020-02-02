@@ -1,0 +1,8 @@
+{
+  "title": "Mac choisit les processeurs Intel",
+  "smallDate": "",
+  "bigDate": "2005-12-31T23:00:00.000Z",
+  "description": "Après plus de 20 ans de lutte fratricide, Apple choisit de délaisser les microprocesseurs PowerPC et d'utiliser le processeur Intel",
+  "body": "Après plus de 20 ans de lutte fratricide, Apple choisit de délaisser les microprocesseurs PowerPC et d'utiliser le même processeur Intel que n'importe quel \"PC\". La transition, bien qu'une prouesse technologique, est quasiment invisible pour l'utilisateur final grace à l'invention des \"Universal binaries\" qui sont des programmes compilés pour les 2 architectures et \"collés\" dans un même exécutable.",
+  "thumbnail": "/img/processeur.png"
+}
