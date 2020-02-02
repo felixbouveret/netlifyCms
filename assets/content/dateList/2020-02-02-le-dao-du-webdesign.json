@@ -1,0 +1,7 @@
+{
+  "title": "Le DAO du WebDesign",
+  "smallDate": "2020-04-06T22:00:00.000Z",
+  "bigDate": "1999-12-31T23:00:00.000Z",
+  "body": "Le **dessin assisté par ordinateur**(DAO) est une discipline permettant de produire des dessins techniques avec un logiciel informatique. On le distingue de la synthèse d'image dans la mesure où il ne s'agit pas du calcul de rendu d'un modèle numérique mais de l'exécution de commandes graphiques (traits, formes diverses…). De ce fait, en DAO, la souris et le clavier remplacent le crayon et les autres instruments du dessinateur.\n\n<https://alistapart.com/article/dao/>",
+  "thumbnail": "/img/dao-of-web-design.png"
+}
