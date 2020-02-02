@@ -1,0 +1,8 @@
+{
+  "title": "Lancement de Drupal",
+  "smallDate": "2019-12-31T23:00:00.000Z",
+  "bigDate": "2000-12-31T23:00:00.000Z",
+  "description": "Drupal est un système de gestion de contenu (CMS) libre et open-source publié sous la licence publique générale GNU et écrit en PHP.",
+  "body": "Drupal est un système de gestion de contenu (CMS) libre et open-source publié sous la licence publique générale GNU et écrit en PHP.\n\nDries Buytaert, développeur initial du projet à partir de 2000 à l'université d'Anvers, le définit comme « assembleur rapide de site web » (rapid website assembler). Il est utilisable tel quel sur toute base LAMP, WAMP, XAMPP ou MAMP, mais il est largement personnalisable et programmable ensuite. D'après son créateur, environ 500 000 sites l'utilisaient déjà dès septembre 2009.\n\nEn 2009, il est classé 1er du concours organisé par la société britannique Packt **(en)** dans la catégorie Best Open Source PHP CMS suivi par WordPress et \\[Joomla!](https://fr.wikipedia.org/wiki/Joomla!). Il fait également son entrée en première position dans le Hall of Fame Award nouvellement créé (suivi par Joomla!).\n\nEn 2010, Angela Byron annonce que Drupal équipe à peu près 1 % des sites Internet mondiaux.\n\nEn mai 2014 la société Acquia (dédiée à Drupal et créée par son fondateur) lève 50 millions de dollars auprès de New Enterprise Associates (NEA) et Split Rock Partners.\n\nEn 2018, Drupal est utilisé par 3,5% des sites web mondiaux. C'est le 3e système de gestion de contenu le plus utilisé derrière WordPress et Joomla.",
+  "thumbnail": "/img/drupal.png"
+}
