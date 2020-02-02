@@ -36,11 +36,17 @@ export default {
 
   .inner {
     height: 100%;
+    max-width: 1200px;
     width: 95%;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: 920px) {
+      justify-content: space-between;
+    }
+
 
     .hero-desc {
       @media (min-width: 920px) {
@@ -67,8 +73,9 @@ export default {
 
     @media (min-width: 920px) {
       display: block;
-      max-width: 450px;
+      max-width: 550px;
       border-radius: 5px;
+      width: 50%;
     }
   }
 }
