@@ -1,0 +1,8 @@
+{
+  "title": "Le virus I love you",
+  "smallDate": "2020-05-03T22:00:00.000Z",
+  "bigDate": "1999-12-31T23:00:00.000Z",
+  "description": "I love you est le nom d'un ver informatique, apparu pour la première fois le 4 mai 2000",
+  "body": "I love you est le nom d'un ver informatique, apparu pour la première fois le 4 mai 2000 et envoyé sous forme d'une pièce jointe à un courriel intitulé I love you. Le destinataire du courriel croit que la pièce jointe est un fichier de texte (Love-Letter-for-you.txt.vbs). En ouvrant le fichier, l'utilisateur déclenche l'exécution d'un programme contenu dans le fichier. Ce programme explore la liste des contacts de l'utilisateur et envoie à tous ces contacts un courriel contenant la pièce jointe infectée, assurant ainsi sa reproduction.\n\nCe ver fut le premier à utiliser la crédulité des utilisateurs à aussi grande échelle.\n\nIl s'est répandu en quatre jours sur plus de 3,1 millions de machines dans le monde.",
+  "thumbnail": "/img/iloveyou.png"
+}
