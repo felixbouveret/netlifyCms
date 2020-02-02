@@ -1,22 +1,22 @@
 export const state = () => ({
   blogPosts: [],
   filteredBlogPosts: null,
-  isSearching: false
+  isSearching: false,
+  decadeList: []
 })
 
 export const mutations = {
   SET_BLOG_POSTS (state, list) {
-    state.blogPosts = list.sort((a, b) => new Date(a.bigDate).getFullYear() - new Date(b.bigDate).getFullYear())
+    state.blogPosts = list
   },
   SET_FILTERED_BLOG_POSTS (state, list) {
-    if (list) {
-      state.filteredBlogPosts = list.sort((a, b) => new Date(a.bigDate).getFullYear() - new Date(b.bigDate).getFullYear())
-    } else {
-      state.filteredBlogPosts = list
-    }
+    state.filteredBlogPosts = list
   },
   SET_IS_SEARCHING (state, data) {
     state.isSearching = data
+  },
+  SET_DECADE_LIST (state, list) {
+    state.decadeList = list
   }
 }
 
@@ -30,6 +30,20 @@ export const actions = {
         return res
       }
     )
+    let decadeArray = []
+    blogPosts.sort((a, b) => new Date(a.bigDate).getFullYear() - new Date(b.bigDate).getFullYear())
+
+    for (let index = 0; index < blogPosts.length; index++) {
+      const element = blogPosts[index]
+      const dateDecade = new Date(element.bigDate).getFullYear().toString().slice(0, 3) + '0'
+
+      element.decade = parseInt(dateDecade)
+
+      decadeArray.push(dateDecade)
+      decadeArray = [...new Set(decadeArray)]
+    }
+
+    await commit('SET_DECADE_LIST', decadeArray)
     await commit('SET_BLOG_POSTS', blogPosts)
   }
 }
