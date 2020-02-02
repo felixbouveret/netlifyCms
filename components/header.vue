@@ -8,6 +8,10 @@
 </template>
 
 <style lang="scss" scoped>
+header {
+  position: absolute;
+  width: 100%;
+}
 .inner {
   display: flex;
   align-items: center;
