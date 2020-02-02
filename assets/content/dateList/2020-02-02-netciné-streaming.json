@@ -1,0 +1,8 @@
+{
+  "title": "NetCiné streaming",
+  "smallDate": "2020-05-31T22:00:00.000Z",
+  "bigDate": "1998-12-31T23:00:00.000Z",
+  "description": "NetCine, plate-forme de vidéo à la demande",
+  "body": "Née début 1999 dans le giron de NTI, société spécialisée notamment dans la mise en oeuvre de serveurs vidéo, NetCine, plate-forme de vidéo à la demande, vient d'achever la version 2.0 de sa plate-forme. Une migration technologique qui s'accompagne - ou plutôt qui accompagne - un changement de modèle puisque NetCine ne cherche plus aujourd'hui à faire valoir sa marque mais avant tout à commercialiser sa technologie en marque blanche. La plate-forme technologie a donc été revisitée pour servir ce nouveau modèle. Par exemple pour associer à des profils d'utilisateurs un catalogue et un contenu qui correspond à l'univers de chacun des clients de NetCine. \"Nous proposons en fait un service intégré de vidéo club\", résume Loïc Ader, directeur général de la société. Pour comprendre le sens du mot \"intégré\", une visite des coulisses techniques s'impose.",
+  "thumbnail": "/img/netcine.png"
+}
