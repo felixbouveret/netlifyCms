@@ -2,7 +2,7 @@
   "title": "Première version de Waze",
   "smallDate": "",
   "bigDate": "2007-12-31T23:00:00.000Z",
-  "description": "**Waze** est une application mobile d'assistance de navigation basée sur un système de positionnement par satellites couplée à une cartographie modifiable par ses utilisateurs, sur le principe de la production participative (web 2.0)",
+  "description": "Waze est une application mobile d'assistance de navigation basée sur un système de positionnement par satellites couplée à une cartographie modifiable par ses utilisateurs, sur le principe de la production participative (web 2.0)",
   "body": "**Waze** est une application mobile d'assistance de navigation basée sur un système de positionnement par satellites couplée à une cartographie modifiable par ses utilisateurs, sur le principe de la production participative (web 2.0). L'itinéraire calculé peut se mettre à jour en temps réel grâce à certaines informations liées à l'état du trafic.\n\nWaze est un jeu de mots anglais basé sur le nom ways, qui peut se traduire, en fonction du contexte, par : « voies », « chemins » ou « manière (de faire) ». Ainsi, Waze indique les nombreuses voies — ici dans le sens de routes, ou d'itinéraires — alternatives pour une même destination.\n\nL'application de navigation a été développée par la société israélienne Waze Mobile. La start-up a d'abord été financée par deux fonds venture israéliens Magma and Vertex et un fond venture américain Bluerun Ventures avant d'être racheté par la société Google en 2013. Depuis la société Waze s'est officiellement conformée à la loi française en février 2014 en transformant les alertes-radar par des alertes de « zone de contrôle ».",
   "thumbnail": "/img/waze.png"
 }
