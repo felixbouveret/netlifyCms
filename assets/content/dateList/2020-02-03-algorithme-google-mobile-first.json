@@ -1,0 +1,8 @@
+{
+  "title": "Algorithme \"Google Mobile First\"",
+  "smallDate": "2020-03-25T23:00:00.000Z",
+  "bigDate": "2017-12-31T23:00:00.000Z",
+  "description": "Le Mobile First Index de Google correspond au système de crawl et d’indexation de Google désormais effectué par un robot en version mobile et non ordinateur (desktop).",
+  "body": "Le Mobile First Index de Google correspond au système de crawl et d’indexation de Google désormais effectué par un robot en version mobile et non ordinateur (desktop).\n\nAlors que depuis toujours Google se basait sur la version ordinateur des pages, c’est désormais (pour la plupart des sites) la version mobile qui sert de référence. C’est sur elle que l’algorithme de Google se base, alors lisez bien ce dossier pour comprendre l’impact SEO !",
+  "thumbnail": "/img/mobile.png"
+}
