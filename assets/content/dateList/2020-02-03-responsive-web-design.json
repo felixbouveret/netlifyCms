@@ -1,0 +1,8 @@
+{
+  "title": "Responsive Web Design",
+  "smallDate": "2020-05-24T22:00:00.000Z",
+  "bigDate": "2009-12-31T23:00:00.000Z",
+  "description": "Un \"Responsive Web Design\" est un site web dont la conception vise, grâce à différents principes et techniques, à offrir une consultation confortable sur des écrans de tailles très différentes.",
+  "body": "Un \"Responsive Web Design\" est un site web dont la conception vise, grâce à différents principes et techniques, à offrir une consultation confortable sur des écrans de tailles très différentes.\n\nLe concept de RWD, tel que décrit par Ethan Marcotte, s'appuie sur les trois éléments techniques cités précédemment.\n\nSi les media queries sont souvent mis en avant comme l'élément technique principal du responsive web design, pour Marcotte E., ils ne servent qu'à apporter quelques modifications dans l'interface quand l'utilisation de grilles fluides ne permet pas de résoudre tous les problèmes liés à l'adaptabilité du produit.\n\nCette « sacro-sainte trinité », comme l'appelle Raphaël Goetter, est parfois critiquée, certains considérant que la grille fluide n'est pas nécessaire pour avoir un produit complètement réactif.\n\nPour faciliter la création de modèles réactifs pour le web, et gagner ainsi du temps, il existe de nombreux [framework](https://fr.wikipedia.org/wiki/Framework) en responsive CSS ([Bootstrap](https://fr.wikipedia.org/wiki/Bootstrap_(framework)), Foundation, Gumby, Skeleton…).",
+  "thumbnail": "/img/responsive_web_design.jpg"
+}
