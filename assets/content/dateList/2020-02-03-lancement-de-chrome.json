@@ -1,0 +1,8 @@
+{
+  "title": "Lancement de Chrome",
+  "smallDate": "2020-12-10T23:00:00.000Z",
+  "bigDate": "2007-12-31T23:00:00.000Z",
+  "description": "L'ogre Google, qui est devenu en quelques années le maître du Web, ne pouvait pas se passer d'un navigateur",
+  "body": "L'ogre Google, qui est devenu en quelques années le maître du Web, ne pouvait pas se passer d'un navigateur. En se basant sur le moteur de rendu Webkit - déjà utilisé par Safari d'Apple - il lance son propre browser, fidèle a ses principes : dépouillé et rapide. Chrome connaît un succès fulgurant et taille à la fois des croupières à Firefox et Internet Explorer... A tel point qu'il est désormais le navigateur le plus populaire au monde.",
+  "thumbnail": "/img/chrome.jpeg"
+}
