@@ -1,0 +1,8 @@
+{
+  "title": "Première version de Laravel",
+  "smallDate": "2020-06-14T22:00:00.000Z",
+  "bigDate": "2010-12-31T23:00:00.000Z",
+  "description": "Laravel est un framework web open-source écrit en PHP respectant le principe modèle-vue-contrôleur et entièrement développé en programmation orientée objet.",
+  "body": "Laravel est un framework web open-source écrit en PHP respectant le principe modèle-vue-contrôleur et entièrement développé en programmation orientée objet. Laravel est distribué sous licence MIT, avec ses sources hébergées sur GitHub.\n\nLaravel a été créé par Taylor Otwell en juin 2011.\n\nLe référentiel Laravel/laravel présent sur le site [GitHub](https://fr.wikipedia.org/wiki/GitHub) contient le code source des premières versions de Laravel. À partir de la cinquième version, le framework est développé au sein du référentiel Laravel/framework.\n\nEn peu de temps, une communauté d'utilisateurs du framework s'est constituée[1](https://fr.wikipedia.org/wiki/Laravel#cite_note-WebDesignerArticle-1), et il est devenu en 2016 le projet PHP le mieux noté de GitHub.\n\nLaravel reste pourtant basé sur son grand frère [Symfony](https://fr.wikipedia.org/wiki/Symfony), pour au moins 30 % de ses lignes (utilisation de \"Symfony component\").",
+  "thumbnail": "/img/laravel.png"
+}
