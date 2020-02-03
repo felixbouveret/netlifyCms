@@ -1,0 +1,8 @@
+{
+  "title": "Progressive Web App",
+  "smallDate": "",
+  "bigDate": "2014-12-31T23:00:00.000Z",
+  "description": "Une progressive web app est une application web qui consiste en des pages ou des sites web",
+  "body": "Une progressive web app est une application web qui consiste en des pages ou des sites web, et qui peuvent apparaître à l'utilisateur de la même manière que les applications natives ou les applications mobiles.\n\nEn 2015, Frances Berriman et l’ingénieur de Google Alex Russell proposent le terme de \"progressive web apps\" pour décrire les sites Internet profitant des nouveaux avantages donnés par les navigateurs web notamment avec l’arrivée des Service workers et des fichiers manifestes.",
+  "thumbnail": "/img/pwaw.png"
+}
