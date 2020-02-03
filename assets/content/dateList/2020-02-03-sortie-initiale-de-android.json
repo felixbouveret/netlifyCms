@@ -1,0 +1,8 @@
+{
+  "title": "Sortie initiale de Android",
+  "smallDate": "2020-09-22T22:00:00.000Z",
+  "bigDate": "2007-12-31T23:00:00.000Z",
+  "description": "Android est un système d'exploitation mobile, fondé sur le noyau Linux et développé par Google.",
+  "body": "**Android** est un système d'exploitation mobile, fondé sur le noyau Linux et développé par Google.\n\nLancé en juin 2007 à la suite du rachat par Google en 2005 de la *start up* du même nom, le système avait d'abord été conçu pour les smartphones et tablettes tactiles, puis s'est diversifié dans les objets connectés et ordinateurs comme les télévisions (Android TV), les voitures (Android Auto), les Chromebook (Chrome OS qui utilise les applications Android) et les *smartwatch* (*Wear OS*).",
+  "thumbnail": "/img/android.png"
+}
