@@ -1,0 +1,8 @@
+{
+  "title": "Premier Travaux en CSS Flexbox",
+  "smallDate": "2020-07-22T22:00:00.000Z",
+  "bigDate": "2008-12-31T23:00:00.000Z",
+  "description": "Le module CSS3 `Flexbox Layout` fournit une façon efficace de disposer, aligner et distribuer l'espace entre les items d'un container, même lorsque leurs dimensions sont inconnues et/ou dynamiques - d'où le terme \"flex\"",
+  "body": "Le module CSS3 `Flexbox Layout` fournit une façon efficace de disposer, aligner et distribuer l'espace entre les items d'un container, même lorsque leurs dimensions sont inconnues et/ou dynamiques - d'où le terme \"flex\".\n\nL'idée principale est de donner à un élément contenant (container) la possibilité de changer les largeur et hauteur des éléments contenus (items), afin de remplir au mieux l'espace disponible, et de s'adapter à tous les terminaux et toutes les tailles d'écrans. Un container flexible permet aux items de s'étendre pour occuper la place disponible ou au contraire les réduit pour leur éviter de déborder.\n\nLe plus important à retenir c'est qu'avec Flexbox la disposition n'est pas rigidement directionnelle, contrairement à ce que nous connaissons habituellement en CSS — où Block est basé sur un schéma vertical et Inline sur un schéma horizontal. Cela fonctionne bien pour les pages, mais ça manque de... flexibilité lorsqu'il s'agit d'applications complexes, en particulier lorsqu'il faut s'adapter aux changements d'orientation de device, redimensionner, étendre ou réduire l'espace, etc.",
+  "thumbnail": "/img/align-items.svg"
+}
