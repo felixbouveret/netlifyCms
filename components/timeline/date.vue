@@ -1,6 +1,6 @@
 <template>
   <div :id="dateInfos.slug" class="date-container">
-    <div @click="openPopup = !openPopup" class="date-content">
+    <div @click="openPopup = !openPopup; bodyNoScoll()" class="date-content">
       <div class="date-image">
         <img :src="dateInfos.thumbnail" alt="">
       </div>
@@ -12,7 +12,11 @@
         <span v-else class="date">{{ year }}</span>
       </div>
     </div>
-    <date-popup :is-displayed="openPopup" :dateFormated="spliteDate" :dateDatas="dateInfos" @change="openPopup = false" />
+    <date-popup
+      :is-displayed="openPopup"
+      :date-formated="dateInfos.smallDate ? smallDate.toString() + '-' + year.toString() : year.toString()"
+      :dateDatas="dateInfos"
+      @change="openPopup = false" />
   </div>
 </template>
 
@@ -45,6 +49,11 @@ export default {
     },
     popupDatas () {
       return this.dateInfos
+    }
+  },
+  methods: {
+    bodyNoScoll () {
+      document.querySelector('body').style.overflow = 'hidden'
     }
   }
 }

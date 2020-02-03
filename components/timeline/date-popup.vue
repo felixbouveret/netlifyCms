@@ -1,12 +1,14 @@
 <template>
   <div v-if="isDisplayed" class="popup">
     <div class="popup-content">
-      <img :src="image" :alt="title">
-      <div class="popup-desc">
-        <h3>{{ title }}</h3>
-        <span>{{ date }}</span>
-        <div v-html="$md.render(description)" class="popup-text" />
+      <div class="popup-header">
+        <div class="popup-header-desc">
+          <h3>{{ title }}</h3>
+          <span>{{ date }}</span>
+        </div>
+        <img :src="image" :alt="title">
       </div>
+      <div v-html="$md.render(description)" class="popup-text" />
     </div>
     <div @click="mayCloseMe" class="popup-background" />
   </div>
@@ -50,16 +52,17 @@ export default {
   },
 
   methods: {
-
     mayCloseMe () {
+      document.querySelector("body").style.overflow = ""
       this.$emit('change', false)
     }
-  }
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 .popup {
+  cursor: initial;
   display: flex;
   position: fixed;
   z-index: 999;
@@ -76,26 +79,53 @@ export default {
 }
 
 .popup-content {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   z-index: 2;
-  position: relative;
-  display: flex;
+  max-width: 700px;
+  max-height: 700px;
+  width: 95%;
   margin: auto;
-  padding: 24px;
-  border-radius: 5px;
-  max-width: 900px;
+  padding: 32px;
+  border-radius: 4px;
 
-  img {
-    width: 40%;
-    margin-right: 16px;
-  }
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  h3 {
-    font-size: 32px;
+    .popup-header-desc {
+      h3 {
+        font-size: 28px;
+      }
+      span {
+        display: block;
+        margin-top: 8px;
+        font-size: 18px;
+      }
+    }
+
+    img {
+      max-width: 300px;
+      max-height: 300px;
+      object-fit: contain;
+    }
   }
   .popup-text {
-    margin-top: 16px;
-    line-height: 20px;
+    margin-top: 24px;
+    flex-grow: 1;
+    overflow-y: auto;
+    p {
+      line-height: 140%;
+      color: red;
+    }
   }
+
+}
+</style>
+<style lang="scss">
+.popup-text p {
+  line-height: 140%;
 }
 </style>
