@@ -1,7 +1,7 @@
 {
   "title": "Le Bitcoin est inventé",
-  "smallDate": "",
-  "bigDate": "2007-12-31T23:00:00.000Z",
+  "smallDate": "2020-01-02T23:00:00.000Z",
+  "bigDate": "2008-12-31T23:00:00.000Z",
   "description": "La monnaie cryptographique Bitcoin est inventée",
   "body": "Le **Bitcoin** (₿, **BTC**) (de l'anglais bit : unité d'information binaire et coin « pièce de monnaie ») est une cryptomonnaie autrement appelée monnaie cryptographique. Dans le cas de la dénomination unitaire, on l'écrit « bitcoin » et, dans le cas du système de paiement pair-à-pair on l'écrit « Bitcoin ». L'idée fut présentée pour la première fois en novembre 2008 par une personne, ou un groupe de personnes, sous le pseudonyme de Satoshi Nakamoto. Le code source de l'implémentation de référence fut quant à lui publié en 2009.\n\nLe G20 considère que le Bitcoin est un « crypto-actif ». Ce terme « crypto-actif » fait alors référence à « des actifs virtuels stockés sur un support électronique permettant à une communauté d'utilisateurs les acceptant en paiement de réaliser des transactions sans avoir à recourir à la monnaie légale ».",
   "thumbnail": "/img/bitcoin.png"
