@@ -1,0 +1,8 @@
+{
+  "title": "Lancement de Bootstrap",
+  "smallDate": "2020-08-18T22:00:00.000Z",
+  "bigDate": "2010-12-31T23:00:00.000Z",
+  "description": "Bootstrap est une collection d'outils utiles à la création du design de sites et d'applications web.",
+  "body": "Bootstrap est une collection d'outils utiles à la création du design de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option.\n\nAvant l'arrivée de Bootstrap, plusieurs bibliothèques existaient, ce qui menait à des incohérences et à un coût de maintenance élevé.\n\nCette plate-forme a été conçue par deux développeurs faisant partie de la mouvance de développeurs qui gravitent autour de [Twitter](https://fr.wikipedia.org/wiki/Twitter), Mark Otto et Jacob Thornton, et avait le nom de Twitter Blueprint en 2010.\n\nLe premier déploiement à échelle réelle eut lieu lors de la première hackweek organisée par Twitter.\n\nEn août 2011, [Twitter](https://fr.wikipedia.org/wiki/Twitter) place Bootstrap sous licence [open source](https://fr.wikipedia.org/wiki/Open_source). En février 2012, Bootstrap est le projet le plus populaire sur [GitHub](https://fr.wikipedia.org/wiki/GitHub).",
+  "thumbnail": "/img/bootsrap.png"
+}
