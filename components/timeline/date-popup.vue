@@ -42,7 +42,7 @@ export default {
       return this.dateDatas.body
     },
     date () {
-      return new Date(this.dateDatas.date)
+      return this.dateFormated
     },
     image () {
       return this.dateDatas.thumbnail
